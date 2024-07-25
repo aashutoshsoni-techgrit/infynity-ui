@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+   font-family: 'Roboto Flex';
+   src: url('/fonts/roboto-flex/RobotoFlex.ttf') format('truetype');
+}
+
+$color-grey: #767676;
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scrollbar-width: thin;
+   font-family: 'Roboto Flex', sans-serif !important;
+   font-style: normal;
+   font-optical-sizing: auto;
+   font-variation-settings:
+      'slnt' 0,
+      'wdth' 100,
+      'GRAD' 0,
+      'XOPQ' 96,
+      'XTRA' 468,
+      'YOPQ' 79,
+      'YTAS' 750,
+      'YTDE' -203,
+      'YTFI' 738,
+      'YTLC' 514,
+      'YTUC' 712;
+}
+
+html {
+   scroll-behavior: smooth;
+   font-size: 85%;
+}
+
+body {
+   color: $color-grey !important;
+}
+
+em u {
+   font-style: italic !important;
+}
+
+em {
+   font-style: italic !important;
+}
+
+.m_c2204cc2 .ProseMirror {
+   padding: 0 !important;
+}
+
+ul {
+   list-style-type: disc;
+}
+
+ol {
+   list-style-type: decimal;
+}
+
+.tiptap.ProseMirror p em s u {
+   font-style: italic;
+   color: #595959;
+}
+
+.react-flow__attribution {
+   display: none !important;
+}
+
+.m_82577fc2.mantine-Input-section.mantine-Select-section
+   .m_2943220b.mantine-ComboboxChevron-chevron {
+   display: none !important;
+}
+
+.m_82577fc2.mantine-Input-section.mantine-Select-section::after {
+   content: '';
+   display: inline-block;
+   width: 0.563rem;
+   height: 0.563rem;
+   background: url('data:image/svg+xml,<svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.94 0.720703L4 3.7807L7.06 0.720703L8 1.66737L4 5.66737L0 1.66737L0.94 0.720703Z" fill="%23767676"/></svg>')
+      no-repeat;
+   background-size: contain;
+   margin-right: 0.4rem;
+}
