@@ -1,0 +1,14 @@
+.spinner {
+   position: absolute;
+   animation: spin 1.5s ease-in-out infinite;
+}
+
+@keyframes spin {
+   from {
+      transform: translateX(-40vw);
+   }
+
+   to {
+      transform: translateX(100vw);
+   }
+}
